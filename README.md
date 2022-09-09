@@ -4,7 +4,7 @@ This file contains the Matlab code for the paper "AN RKHS APPROACH FOR PIVOTAL I
 
 This file contians:
 
-(1) sample_code.m: A sample simulation code for computing empirical rejection probabilities. This simulation takes several hours to finish.
+(1) sample_code.m: A sample simulation code for computing empirical rejection probabilities.
 
 (2) TandV.m: a function that computes \hat{T}_n and \hat{V}_n in the paper.
 
