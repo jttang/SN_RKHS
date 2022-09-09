@@ -12,7 +12,7 @@ This file contians:
 
 (4) bikeshare.txt: The Bike-sharing data of Captial Bike Sharing (CBS), obtained from R package ISLR2. 
 
-References of this data set:
+References the Bike-sharing data set:
 
 Fanaee-T, H. and Gama, J. (2014). Event labeling combining ensemble detectors and background knowledge. Progress in Artificial Intelligence, 2, 113–127.
 
