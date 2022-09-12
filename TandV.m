@@ -1,8 +1,14 @@
 function [T,V] = TandV(x,y,gridx,Q,nu0)
+% This code is a Matlab function for computing \hat{T}_n and \hat{V}_n in
+% "AN RKHS APPROACH FOR PIVOTAL INFERENCE IN FUNCTIONAL LINEAR REGRESSION" by Holger Dette and Jiajun Tang
+% Please download and source the Matlab package Chebfun available at https://www.chebfun.org/
+
+
+
 % function x is measured on the equally spaced grid gridx
 % nrow(x)=n
 
-addpath('/Users/jiajunt2/Dropbox/RKHS/rkhs_2021_05_25')
+% Please download and source the Matlab package Chebfun available at https://www.chebfun.org/
 nuq = nu0 + (1:Q) * (1-nu0) / Q;
 nq = round(size(x,1)*nuq);
 

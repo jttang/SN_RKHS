@@ -1,3 +1,6 @@
+% This file is a sample simulation code for 
+% "AN RKHS APPROACH FOR PIVOTAL INFERENCE IN FUNCTIONAL LINEAR REGRESSION" by Holger Dette and Jiajun Tang
+% Please download and source the Matlab package Chebfun available at https://www.chebfun.org/
 
 clear
 
@@ -28,7 +31,7 @@ Delta = [0.7 1 1.3];
 delta = 0.1:0.1:2;
 
 % Compute empirical rejection probabilities
-SIMU = 50;
+SIMU = 500;
 rj = zeros(length(Delta), length(delta));
 
 gridx = 0:0.01:1;

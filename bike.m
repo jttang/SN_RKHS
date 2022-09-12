@@ -1,3 +1,16 @@
+% This is the Matlab code used for the real data analysis in
+% "AN RKHS APPROACH FOR PIVOTAL INFERENCE IN FUNCTIONAL LINEAR REGRESSION"
+% by Holger Dette and Jiajun Tang
+%
+% The data analyzed is the Bike-sharing data of Captial Bike Sharing (CBS), obtained from R package ISLR2.
+% References for the Bike-sharing data:
+% Fanaee-T, H. and Gama, J. (2014). Event labeling combining ensemble detectors and background knowledge. Progress in Artificial Intelligence, 2, 113–127.
+% James, G., Witten, D., Hastie, T. and Tibshirani, R. (2021). An Introduction to Statistical Learning: With Applications in R. New York: springer.
+%
+% Please download and source the Matlab package Chebfun available at https://www.chebfun.org/
+
+
+
 clear
 % Get data
 % Bike
