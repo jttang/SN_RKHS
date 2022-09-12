@@ -1,8 +1,8 @@
 # SN_RKHS
 
-This file contains the Matlab code for the paper "AN RKHS APPROACH FOR PIVOTAL INFERENCE IN FUNCTIONAL LINEAR REGRESSION" by Holger Dette and Jiajun Tang
+This package contains the Matlab code for the paper "AN RKHS APPROACH FOR PIVOTAL INFERENCE IN FUNCTIONAL LINEAR REGRESSION" by Holger Dette and Jiajun Tang
 
-This file contians:
+The files are:
 
 (1) sample_code.m: A sample simulation code for computing empirical rejection probabilities.
 
@@ -18,4 +18,4 @@ Fanaee-T, H. and Gama, J. (2014). Event labeling combining ensemble detectors an
 
 James, G., Witten, D., Hastie, T. and Tibshirani, R. (2021). An Introduction to Statistical Learning: With Applications in R. New York: springer.
 
-The code uses Matlab package Chebfun available at https://www.chebfun.org/. Please download this package and put it in the same folder as the above files and set this folder as the working directory.
+The code uses Matlab package Chebfun available at https://www.chebfun.org/. Please download and source this package before running using the code.
