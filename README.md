@@ -18,4 +18,4 @@ Fanaee-T, H. and Gama, J. (2014). Event labeling combining ensemble detectors an
 
 James, G., Witten, D., Hastie, T. and Tibshirani, R. (2021). An Introduction to Statistical Learning: With Applications in R. New York: springer.
 
-The code uses Matlab package Chebfun available at https://www.chebfun.org/. Please download and source this package before running using the code.
+The code uses Matlab package Chebfun available at https://www.chebfun.org/. Please download and source this package before running the code.
