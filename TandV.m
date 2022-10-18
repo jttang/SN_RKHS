@@ -2,7 +2,10 @@ function [T,V] = TandV(x,y,gridx,Q,nu0)
 % function x is measured on the equally spaced grid gridx
 % nrow(x)=n
 
-addpath('/Users/jiajunt2/Dropbox/RKHS/rkhs_2021_05_25')
+%%%%%%%%%%%%%%%%
+% Please source package chebfun
+%%%%%%%%%%%%%%%%
+% addpath('/Users/jiajunt2/Dropbox/RKHS/rkhs_2021_05_25/chebfun-master')
 nuq = nu0 + (1:Q) * (1-nu0) / Q;
 nq = round(size(x,1)*nuq);
 
